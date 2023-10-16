@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project13</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css ">
+</head>
+<style>
+    
+.container{display: flex;
+gap: 5%;}
+
+.firstcol{
+width: 25%;
+height: 100vh;
+border-right: 2px solid black;
+text-align: center;
+padding: 20px 0px;
+}
+
+a{
+line-height: 2;
+text-decoration: none;
+font-size: 20px;
+color: black;
+}
+
+.home{
+background-color: yellow;
+width: 180px;
+height: 33px;
+border: none;
+border-radius: 5px;
+font-size: 20px;
+color: black;
+}
+
+.optionline{border: 2px solid black;
+margin: auto;
+width: 70%;
+}
+
+.social{
+display: flex;
+gap: 5px;
+justify-content: center;
+}
+
+.socialbox{
+width: 30px;
+height: 30px;
+border: 2px solid black;
+}
+
+i{padding: 8px;}
+
+.secondcol{display: flex;
+width: 60%;
+gap: 5%;
+margin-top: 30vh;
+}
+
+.photo{   
+width: 210px;
+height: 240px;
+border: 3px solid black;
+}
+
+img{width: 200px;
+height: 230px;
+padding: 5px;
+position: relative;bottom:75% ;
+z-index: +1;
+}
+
+.imagebg{width: 230px;
+height: 180px;
+position: relative;right: 9px;
+position: relative;top: 20px;
+background-color: yellow;
+margin: auto;
+z-index: -1;
+}
+
+.lineBio{border: 3px solid black;
+width: 150px;
+margin-left: 0;
+}
+
+@media(max-width:700px){
+
+    .container{display: block;
+gap: 0%;}
+
+.firstcol{
+width:100%;
+height: 50vh;
+border-right: 2px solid black;
+text-align: center;
+padding: 20px 0px;
+}
+
+.secondcol{display: block;
+width: 100%;
+gap: 0%;
+margin-top: 10vh;
+}
+
+.photo{     
+margin: auto;  
+width: 210px;
+height: 240px;
+border: 3px solid black;
+}
+
+.Biodata{text-align: center;}
+
+.lineBio{border: 3px solid black;
+width: 150px;
+margin:auto;
+
+}
+
+</style>
+
+<body>
+    <div class="container">
+    <div class="firstcol">
+        <h1><u>Rewall</u></h1>
+        <div class="option">
+        <a href=""><button class="home">Home</button></a><br>
+        <a href="">Portfolio</a><br>
+        <a href="">Services</a><br>
+        <a href="">Customers</a><br>
+        <a href="">News & Tips</a><br>
+        <a href="">Contact</a>
+    </div>
+    <br><br>
+  <hr class="optionline">
+  <br><br>
+<div class="social">
+   <div class="socialbox"><i class="fa-brands fa-twitter"></i></div> 
+   <div class="socialbox"><i class="fa-brands fa-facebook-f"></i></div>
+   <div class="socialbox"><i class="fa-brands fa-square-instagram"></i></div>
+   <div class="socialbox"><i class="fa-brands fa-linkedin"></i></div>
+   <div class="socialbox"><i class="fa-brands fa-youtube"></i></div>
+</div>
+<br>
+<p>@2023 Rewall Profile <br>
+Created by Sandy</p>
+</div>
+    
+ <div class="secondcol">
+
+<div class="photo">
+<div class="imagebg"></div>
+<img src="professor2.webp" alt="">
+</div> 
+ 
+ 
+<div class="Biodata">
+<h1>WEBSITE <br> DEVELOPER</h1>   
+<hr class="lineBio">
+<br>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, laboriosam iure dolorum exercitationem nulla animi mollitia doloribus ab deleniti iusto quia omnis beatae labore est sunt odio atque corrupti at.
+</div>
+
+
+</div>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
